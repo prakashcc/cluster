@@ -1,24 +1,36 @@
 {
-  "name": "cluster",
-  "description": "extensible multi-core server manager",
+  "name": "clipm",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "clipm": "bin/processmanager.js"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
   "keywords": [
-    "server",
-    "tcp",
-    "workers"
+    "cli",
+    "processmanager"
   ],
-  "version": "0.7.7",
-  "homepage": "",
-  "repository": "",
-  "author": "",
-  "main": "index",
+  "author": "Prakash",
+  "license": "ISC",
   "dependencies": {
-    "log": ">= 1.2.0",
-    "mkdirp": ">= 0.0.1"
-  },
-  "devDependencies": {
-    "should": "0.2.x"
-  },
-  "engines": {
-    "node": "*"
+    "arg": "^4.1.0",
+    "chalk": "^2.4.2",
+    "commander": "^2.20.0",
+    "esm": "^3.2.22",
+    "execa": "^1.0.0",
+    "inquirer": "^6.3.1",
+    "listr": "^0.14.3",
+    "minimist": "^1.2.0",
+    "ncp": "^2.0.0",
+    "os": "^0.1.1",
+    "os-utils": "0.0.14",
+    "pkg-install": "^1.0.0",
+    "winston": "^3.2.1"
   }
 }
