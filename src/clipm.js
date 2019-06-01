@@ -65,7 +65,7 @@ export async function cli(args) {
 
 async function promptForProcessOptions(options) {
   if(options.startprocess){
-
+    console.log(arg[0]);
     startprocess(); 
     console.log(process.arg[2])
     console.log(process.platform);
